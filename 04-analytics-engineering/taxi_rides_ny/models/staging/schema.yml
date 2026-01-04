@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: just-terminus-479503-a8
+    schema: taxi_trip_all
+
+    tables:
+      - name: green_trip
+      - name: yellow_trip
